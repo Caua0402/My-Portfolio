@@ -1,0 +1,52 @@
+.projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    background-color: #0000;
+}
+
+.section-title{
+    background: linear-gradient(#666, #000);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card-container{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.card {
+    position: relative;
+    width: 320px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.card::before{
+    background-color: #0008;
+    content: "Clique aqui para ver o projeto";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    transform: translateY(100%);
+    transition: .5s;
+}
+.card:hover::before{
+    transform: translateY(0%);
+}
