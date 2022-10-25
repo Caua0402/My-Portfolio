@@ -32,7 +32,7 @@
 }
 
 /* MOBILE */
-@media (max-width: 640px) {
+@media (max-width: 630px) {
     .home div {
         display: flex;
         flex-direction: column;
