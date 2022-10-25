@@ -91,7 +91,7 @@ header{
     display: flex;
     flex-direction: column;
 }
-.projetos-image{
+.card-container{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -130,7 +130,6 @@ header{
         --space-default: 30px;
     }
 header{
-    
     display: flex;
     align-items: center;
     justify-content: space-around;
