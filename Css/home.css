@@ -20,3 +20,24 @@
     font-size: 4rem;
     color: var(--primary-color);
 }
+
+/* TABLET */
+@media (max-width: 960px) {
+    .home {
+        flex-direction: column;
+    }
+    .home div {
+        text-align: center;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 640px) {
+    .home div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 48px;
+        gap: 12px;
+    }
+}
