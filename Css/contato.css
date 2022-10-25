@@ -15,13 +15,11 @@
     grid-area: contatos;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
 }
 .contato-title{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
-
-
 
 .social-container{
     grid-area: social;
