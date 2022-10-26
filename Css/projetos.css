@@ -51,34 +51,3 @@
     transform: translateY(0%);
 }
 
-/* TABLET */
-@media (max-width: 960px) {
-    .projetos {
-        height: 420vh;
-    }
-    .card-container {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-    .card {
-        width: 672px;
-        height: 420px;
-    }
-}
-
-/* MOBILE */
-@media (max-width: 630px) {
-    .projetos {
-        padding-top: 500px;
-        height: 420vh;
-    }
-    .card-container {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-    .card {
-        width: 520px;
-        height: 380px;
-    }
-}
-
