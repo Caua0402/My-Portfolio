@@ -63,7 +63,7 @@
     align-items: center;
     gap: 16px;
     cursor: pointer;
-    transition: color .5s;
+    transition: all .8s;
 }
 
 .skills__icon i{
@@ -75,4 +75,5 @@
 .skills__icon:hover{
     color: var(--primary-color);
     box-shadow: inset 0px 0px 5px var(--primary-color);
+    transform: scale(115%);
 }

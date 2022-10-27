@@ -48,9 +48,11 @@ main{
     place-content: center;
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
+    transition: all .5s;
 }
 .back:hover{
     opacity: 1;
+    transform: scale(105%);
 }
 
 section{

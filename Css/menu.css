@@ -5,7 +5,7 @@
 }
 .menu li{
     border-bottom: 4px solid transparent;
-    transition: border-color .3s;
+    transition: border-color .5s;
 }
 
 .menu li:hover{
