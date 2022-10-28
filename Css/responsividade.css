@@ -170,7 +170,7 @@ header{
     display: flex;
     align-items: center;
     width: 100%;
-    font-size: 15px;
+    font-size: 10px;
     gap: 8px;}
 
     .home__text{
@@ -188,6 +188,10 @@ header{
     .sobre-mim{
             display: flex;
             flex-direction: column;
+    }
+
+    .description{
+        gap: 5px;
     }
 
     .description__title {
@@ -267,7 +271,7 @@ header{
     }
 
     footer{
-        font-size: 14px;
+        font-size: 12px;
     }
 
 }
