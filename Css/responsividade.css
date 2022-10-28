@@ -155,22 +155,22 @@ header{
     width: 85%;
 }
     .logo{
-    font-size: 20px;
+    font-size: 18px;
     width: 150px;
     }
     .logo::before{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .logo::after{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .menu{
     display: flex;
     align-items: center;
     width: 100%;
-    font-size: 18px;
+    font-size: 15px;
     gap: 8px;}
 
     .home__text{
@@ -197,7 +197,7 @@ header{
     }
 
     .description__text{
-        font-size: 2rem;
+        font-size: 20px;
     }
 
     .skills__title {
@@ -211,6 +211,16 @@ header{
         align-items: center;
         width: 100%;
         height: 40%;
+    }
+
+    .skills__icons{
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+        flex-wrap: wrap;
+        padding: 5%;
+        padding-top: 0%;
+    
     }
 
     .projetos{
@@ -231,7 +241,6 @@ header{
 
     .contatos {
         display: flex;
-        height: 20%;
         flex-direction: column;
     }
 
@@ -258,7 +267,7 @@ header{
     }
 
     footer{
-        font-size: 15px;
+        font-size: 14px;
     }
 
 }
