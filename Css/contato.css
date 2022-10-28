@@ -16,6 +16,9 @@
     text-align: center;
     font-weight: 700;
     font-size: clamp(2rem, 18vw, 14rem);
+    background: linear-gradient(#666, #000);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .contato-container{
