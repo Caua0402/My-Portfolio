@@ -1,4 +1,4 @@
-@media (max-width: 960px){
+@media (max-width: 820px){
     :root{
         --space-default: 30px;
     }
@@ -54,11 +54,11 @@ header{
 .description__title{
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .description__text{
     display: flex;
-    font-size: 12px;
+    font-size: 1.5rem;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -75,21 +75,21 @@ header{
     height: 75%;
 }
 .skills__title{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .skills__icons{
     display: flex;
     flex-direction: row;
     place-content: center;
     flex-wrap: wrap;
-    padding: 10%;
+    padding: 11%;
     padding-top: 0%;
 
 }
 .projetos{
     display: flex;
-    padding: 10%;
-    height: 29%;
+    padding: 30%;
+    height: 35%;
     flex-direction: column;
 }
 .card-container{
@@ -116,13 +116,20 @@ header{
     flex-direction: column;
 }
 .contato-container{
-    font-size: 30px;
+    font-size: 25px;
 }
 .contato-title{
     font-size: 30px;
 }
 .social-container{
-    font-size: 15px;
+    font-size: 30px;
+}
+
+.link-container{
+    font-size: 1.5rem;
+    gap: 35px;
+    padding: 2%;
+    height: 25%;
 }
 
 }
@@ -138,15 +145,15 @@ header{
     width: 85%;
 }
     .logo{
-    font-size: 10px;
+    font-size: 20px;
     width: 150px;
     }
     .logo::before{
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .logo::after{
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .menu{
@@ -168,10 +175,21 @@ header{
         justify-content: center;
     }
 
-    .contato{
+    .projetos{
+        display: flex;
+        height: 60%;
+        flex-direction: column;
+    }
+    .card-container{
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+    .card{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
     
     }
 
@@ -180,14 +198,17 @@ header{
     }
 
     .contato-title{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .link-container{
-        font-size: 20px;
-        padding: 15%;
-        height: 20%;
-        gap: 40px;
+        font-size: 15px;
+        height: 40%;
+        gap: 25px;
     }
+    .link-title{
+        font-size: 1.5rem;
+    }
+
     .social-container{
         display: flex;
         font-size: 1.5rem;
@@ -195,7 +216,7 @@ header{
     }
 
     footer{
-        font-size: 14px;
+        font-size: 10px;
     }
     
     
