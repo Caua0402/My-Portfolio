@@ -11,6 +11,13 @@
     align-items: center;
 }
 
+.section-title-contato{
+    grid-area: title;
+    text-align: center;
+    font-weight: 700;
+    font-size: clamp(2rem, 18vw, 14rem);
+}
+
 .contato-container{
     grid-area: contatos;
     display: flex;
