@@ -9,8 +9,7 @@ main{
 }
 header{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
     width: 95%;
 }
 .logo{
